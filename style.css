@@ -1,0 +1,585 @@
+body{
+    border: 0;
+    margin: 0;
+    background-color: #000720;
+    overflow-x: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Moon_walk;
+    src: url(./Moon\ Walk.ttf);
+}
+.rectangle{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.rectangle2 img{
+    position: relative;
+    bottom: 50px;
+}
+.rectangle1 img{
+    position: relative;
+    bottom: 50px;
+}
+
+.title{
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1vw;
+    margin: 160px 7vw 0px;
+    position: relative;
+    top: -220px;
+    font-family: Inter, sans-serif;
+}
+
+.title .badge img{
+    height: auto;
+    max-width: 100%;
+}
+
+.title_text{
+    color: white;
+    position: relative;
+    bottom: 20px;
+}
+
+.flex{
+   width: 540px;
+}
+
+.heading1{
+    color:#9a8dec;
+    font-size: 35px;
+    font-weight: 540;
+}
+
+.heading2{
+    font-family:Moon_walk;
+    color: #fff;
+    font-size: 65px;
+}
+.heading3{
+    color: rgb(213, 205, 205);
+    font-size: 25px;
+}
+
+.title_text p{
+    color: rgb(213, 205, 205);
+    font-size: 19px;
+    margin-top: 45px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.title_text p span{
+    font-weight: 600;
+}
+
+.title_text button{
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    color: rgb(57, 57, 57);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+button a{
+    font-size: 16px;
+}
+
+button img{
+    height: 25px;
+}
+
+.title_text .zairza{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+    font-size: 15px;
+    font-weight: 550;
+    font-style: italic;
+    position: relative;
+    top: 15px;
+}
+
+.zairza img{
+    height: 30px;
+}
+
+.rectangle_2 img{
+    display: block;
+    position: relative;
+    bottom: 290px;
+}
+
+.process{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    position: relative;
+    bottom: 430px;
+    margin: 0px 6.5vw 0 6.5vw;
+}
+
+.details{
+    margin-top: 30px;
+}
+
+.details .list{
+  display: flex;
+  gap: 15px;
+}
+
+.list p{
+    margin: 0px;
+    font-size: 18px;
+    color: #858298;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.list p span{
+    color: #fff;
+    font-weight: 700;
+}
+
+.list img{
+    height: 36px;
+    width: 36px;
+}
+
+.process1{
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.process2{
+    font-size: 65px;
+    color: #fff;
+    font-family: Moon_walk;
+}
+
+.timeline{
+    background-color:#9a8dec;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    bottom: 250px;
+}
+
+.time_heading{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 550;
+    color: #212529;
+}
+
+.time{
+    font-size: 65px;
+    color: #fff;
+    font-family: Moon_walk;
+}
+.time_line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.time_line div{
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 25px;
+    font-weight: 600;
+    color: #212529;
+    width: 250px;
+    text-align: left;
+}
+
+.perks{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    margin: 0 7vw;
+}
+
+.perks_text{
+    width: 100%;
+    height: fit-content;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.text1{
+    font-size: 35px;
+    color: #9a8dec;
+}
+.text2{
+    font-size: 65px;
+    color: #fff;
+    font-family: Moon_walk;
+}
+.text3{
+    line-height: 30px;
+    color: rgb(213, 205, 205);
+}
+.perks_badges{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 60px 0;
+    width: 100%;
+}
+
+.domains{
+    color: white;
+    text-align: center;
+    margin: 0 7vw;
+}
+
+.domains_heading{
+    background: #362D6D;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px 20px 0 0;
+    gap: 30px;
+    min-height: 60px;
+    padding: 30px 25px 15px;
+    box-sizing: border-box;
+}
+
+.domain1{
+    font-size: 35px;
+    color: #9a8dec;
+    font-family: sans-serif;
+}
+
+.domain2{
+    font-size: 65px;
+    color: #fff;
+    font-family: Moon_walk;
+}
+
+.dropdown{
+    background-color: #362D6D;
+    color: #DAD8EA;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #DAD8EA;
+    padding: 4px 12px;
+}
+
+.alldomains .domain_container{
+    display: flex;
+    flex-wrap: wrap;
+    background: #1A1635;
+    box-sizing: border-box;
+    justify-content: space-around;
+    justify-content: center;
+    border-radius: 0 0 20px 20px;
+    min-height: 360px;
+}
+.domain_container div{
+    width: 185px;
+    padding: 20px;
+}
+
+.domain_container figcaption{
+    font-family: sans-serif;
+    opacity: 0.7;
+    margin-top: 16px;
+}
+
+.domain_container figure{
+    margin: 0px;
+}
+
+.footer{
+    background: #9a8dec;
+    display: flex;
+    padding: 2vw 10vw;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+
+.left_footer{
+    display: flex;
+    gap: 1rem;
+    max-width: 527px;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: justify;
+    color: #C8CDDC;
+    font-size: 16px;
+    font-family:sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.right_footer ul{
+   display: flex;
+   list-style: none;
+   gap: 1.5rem;
+   padding-left: 0;
+   margin-top: 0;
+   margin-bottom: 1rem;
+   font-family: sans-serif;
+   color: white;
+   font-weight: 700;
+}
+
+ul li a{
+    color: white;
+}
+nav{
+    background: rgba(186, 186, 186, 0.192);
+   backdrop-filter: blur(12px);
+   border-radius: 0.5rem;
+   margin-bottom: 3vmax;
+   margin-top: 3vmax; 
+   margin-left: 9vw;
+   margin-right: 9vw;
+   --tw-bg-opacity: 0.2;
+   --tw-backdrop-blur: blur(12px);
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    font-family: sans-serif;
+}
+
+.navbar button{
+    display: none;
+}
+.access ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    position: relative;
+    top: 5px;
+    padding: 0;
+}
+
+.access ul li .link{
+    margin-left: 32px;
+}
+
+.access ul li a{
+    text-decoration: none;
+}
+
+.navbar .register{
+    background-color: #fff;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.navbar .mylogo img{
+    height: 2rem;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.navigation_bar{
+    width: 100%;
+    z-index: 50;
+    position: fixed;
+}
+
+.navbar #check{
+    display: none;
+}
+@media (max-width:1242px){
+    .process{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .process .process_img img{
+    height: auto;
+    width: 100%;
+    }
+}
+
+@media(max-width:880px){
+    .access ul{
+        display: none;
+    }
+
+    .navbar button{
+        display: inline-block;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .navbar button label img{
+        height: 2.75rem;
+    }
+
+    .navbar .register{
+        position: relative;
+        right: 5vw;
+        margin-left: 7vw;
+    }
+
+}
+
+@media (max-width:768px){
+    .rectangle_2{
+        display: none;
+    }
+
+    .process{
+        position: relative;
+        bottom: 150px;
+    }
+
+    .timeline{
+        position: relative;
+        top: 60px;
+    }
+
+    .perks{
+        position: relative;
+        top: 250px;
+    }
+
+    .domains{
+        position: relative;
+        top: 300px;
+    }
+
+    .footer{
+        position: relative;
+        top: 450px;
+    }
+}
+
+@media (max-width:1024px){
+    .rectangle{
+        position: relative;
+        bottom: 30px;
+    }
+}
+
+@media (max-width:480px)
+{
+    .rectangle{
+        position: relative;
+        bottom: 40px;
+    }
+}
+
+@media(max-width:566px){
+  .perks .perks_badges div img{
+    height: 60vw;
+    max-width: 100%;
+    max-height: 340px;
+    vertical-align: middle;
+  }   
+}
+
+@media(max-width:480px){
+    .alldomains .domain_container div{
+        width: 130px;
+    }
+}
+
+@media(max-width:320px){
+    .alldomains .domain_container div{
+        width: 125px;
+    }
+}
+
+@media(max-width:640px){
+    .title .title_text .heading1{
+        font-size: 25px;
+    }
+    .title .title_text .heading2{
+        font-size: 50px;
+    }
+    .title .title_text .heading3{
+        font-size: 20px;
+    }
+    .process .details .process1{
+        font-size: 25px;
+    }
+    .process .details .process2{
+        font-size: 50px;
+    }
+    .timeine .time_heading{
+        font-size: 25px;
+    }
+    .timeline .time {
+        font-size: 50px;
+    }
+    .perks .perks_text .text1{
+        font-size: 25px;
+    }
+    .perks .perks_text .text2{
+        font-size: 50px;
+    }
+    .domains .domain1{
+        font-size: 25px;
+    }
+    .domains .domain2{
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
+
+@media (max-width:580px){
+    .rectangle .rectangle1 img{
+        position: relative;
+        left: 50px;
+        bottom: 50px;
+        width: 15vw;
+    }
+    .rectangle .rectangle2 img{
+        width: 80vw;
+    }
+}
+
+
